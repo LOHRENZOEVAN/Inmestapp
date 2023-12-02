@@ -1,0 +1,24 @@
+<table class="table">
+<thead>
+    <th>User ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+    <th>Cohort</th>
+    <th>Action</th>
+</thead>
+<tbody>
+    <tr>
+        <td>1</td>
+        <td>Fleur</td>
+        <td>Sessinou</td>
+        <td>fleur.sessinou#meltwater.org</td>
+        <td>2024</td>
+        <td>
+            <a class="btn btn-link" [routerLink]="['/user-detail']" [queryParams]="{id: 1}">
+                <i class="fa fa-eye"></i>
+            </a>
+        </td>
+    </tr>
+</tbody>
+</table>
